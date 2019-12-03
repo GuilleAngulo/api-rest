@@ -9,7 +9,6 @@
 nosql-mongoose/node_modules
 sql-sequelize/node_modules
 nosql-mongoose/src/app/controllers/index.js
-nosql-mongoose/src/config
 
 
 # profiling files
