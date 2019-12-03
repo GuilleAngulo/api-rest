@@ -12,7 +12,7 @@ It is neccessary to fill your database configuration at: **sql-sequelize/src/con
 </p>
 
 ## MongoDB with Mongoose
-It makes use of the Node ORM [Mongoose](https://mongoosejs.com/). The structure is again very simple: User, Task and Project. This API provides "forgot password" funcionality by sending by email a generated token to be used when changing the password. This token is stored at the database as well as one expiry time for security reasons (both will be checked at reset password function). Another security measure is the encryption of the password before being stored at the database (using bcrypt module). 
+It makes use of the Node ORM [Mongoose](https://mongoosejs.com/). The structure is again very simple: User, Task and Project. This API provides "forgot password" funcionality by sending by email a generated token to be used when changing the password. This token is stored at the database as well as one expiry time for security reasons (both will be checked at reset password function). Another security measure is the encryption of the password before being stored at the database (using bcrypt module). Finally, the tokens generated (with jwt module) are signed with the "secret" located at **config/auth.json**.
 
 ### Prerequisites
 - To test the API you will need to connect the project to your database, filling the configuration at: **config/database.json**. 
