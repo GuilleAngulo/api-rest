@@ -18,3 +18,7 @@ It makes use of the Node ORM [Mongoose](https://mongoosejs.com/). The structure 
 - To test the API you will need to connect the project to your database, filling the configuration at: **config/database.json**. 
 - Also, in order to send reset password emails, is required to fill the mail configuration document. For testing purpose you can create a free account at [Mailtrap.io](https://mailtrap.io/) and use the configuration parameters at **config/mail.json**. 
 - Finally you can choose your own secret to sign the tokens with, at **config/auth.json**.
+
+<p align="center">
+<img src="https://github.com/GuilleAngulo/api-rest/blob/master/nosql-mongoose/img/nosql-mongo.png" width="420">
+</p>
