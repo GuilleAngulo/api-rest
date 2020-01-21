@@ -1,4 +1,4 @@
-# API REST
+# 📡 API REST
 The project is composed of two different APIs REST. One is based on a SQL database (Postgres) and the other on a NoSQL database (Mongodb).
 
 ## PostgreSQL with Sequelize
